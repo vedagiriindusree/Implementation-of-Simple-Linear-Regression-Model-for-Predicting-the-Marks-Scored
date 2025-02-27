@@ -97,6 +97,8 @@ print("RMSE = ",rmse)
 
 ## Segregating data to variables
 ![image](https://github.com/user-attachments/assets/dfe6152d-26e0-4286-b68c-4eec6e36fa24)
+![image](https://github.com/user-attachments/assets/d1033c8e-38d1-4078-88c8-0a2e9b42111e)
+
 
 ## Displaying predicted values
 ![image](https://github.com/user-attachments/assets/07e56b3a-8941-42db-8b4f-615a44b80b64)
