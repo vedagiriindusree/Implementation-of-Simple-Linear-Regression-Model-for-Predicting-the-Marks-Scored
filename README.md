@@ -59,6 +59,13 @@ print(Y_pred)
 #display actual values
 print(Y_test)
 
+mse=mean_squared_error(Y_test,Y_pred)
+print('MSE = ',mse)
+mae=mean_absolute_error(Y_test,Y_pred)
+print('MAE = ',mae)
+rmse=np.sqrt(mse)
+print("RMSE = ",rmse)
+
 #Graph plot for training data
 plt.scatter(X_train,Y_train,color="orange")
 plt.plot(X_train,regressor.predict(X_train),color="red")
@@ -74,13 +81,6 @@ plt.title("Hours vs Scores (Test Set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
-
-mse=mean_squared_error(Y_test,Y_pred)
-print('MSE = ',mse)
-mae=mean_absolute_error(Y_test,Y_pred)
-print('MAE = ',mae)
-rmse=np.sqrt(mse)
-print("RMSE = ",rmse)
 ```
 
 ## Output:
@@ -106,14 +106,14 @@ print("RMSE = ",rmse)
 ## Displaying actual values
 ![image](https://github.com/user-attachments/assets/87706d7f-bd46-44a7-8e92-7e8f918f5901)
 
+## MSE MAE RMSE
+![image](https://github.com/user-attachments/assets/2f6235e4-5dd0-4512-bb58-aaaa0f0e7157)
+
 ## Graph plot for training data
 ![image](https://github.com/user-attachments/assets/8c7c10f4-512d-45f9-a0e2-3098b9f939e7)
 
 ## Graph plot for test data
 ![image](https://github.com/user-attachments/assets/8509c5d0-3309-42f1-9a69-52c9c609da5d)
-
-## MSE MAE RMSE
-![image](https://github.com/user-attachments/assets/2f6235e4-5dd0-4512-bb58-aaaa0f0e7157)
 
 ## Result
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
