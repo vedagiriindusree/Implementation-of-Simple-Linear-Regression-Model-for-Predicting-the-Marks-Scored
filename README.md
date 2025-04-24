@@ -81,6 +81,8 @@ plt.title("Hours vs Scores (Test Set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
+print("Name:Vedagiri Indu Sree")
+print("Reg no:212223230236")
 ```
 
 ## Output:
@@ -113,7 +115,8 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/8c7c10f4-512d-45f9-a0e2-3098b9f939e7)
 
 ## Graph plot for test data
-![image](https://github.com/user-attachments/assets/8509c5d0-3309-42f1-9a69-52c9c609da5d)
+![image](https://github.com/user-attachments/assets/6419676f-1a7f-4d09-b5f8-c71a2f334adb)
+
 
 ## Result
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
