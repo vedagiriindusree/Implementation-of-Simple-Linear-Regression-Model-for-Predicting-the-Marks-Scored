@@ -94,8 +94,6 @@ print("Reg no:212223230236")
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
-
 ## Displaying the content in datafield
 
 ## head:
